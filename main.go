@@ -242,7 +242,7 @@ func MakeChart(){
     			AddSeries("Total Active Staff", staff, charts.WithLabelOpts(opts.Label{Show: true})).
     			AddSeries("Total Active Students", student, charts.WithLabelOpts(opts.Label{Show: true})).
     			SetSeriesOptions(
-    				charts.WithLineChartOpts(opts.LineChart{Smooth: true}),
+    			//	charts.WithLineChartOpts(opts.LineChart{Smooth: true}),
     				charts.WithLabelOpts(opts.Label{Show: true}),
     				charts.WithMarkPointStyleOpts(
 						opts.MarkPointStyle{Label: &opts.Label{Show: true}}),
