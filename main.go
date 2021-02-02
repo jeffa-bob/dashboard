@@ -9,6 +9,7 @@ import (
 	"strconv"
 	"strings"
 	"fmt"
+	"sort"
 	"os"
 	"github.com/PuerkitoBio/goquery"
 	 "github.com/go-echarts/go-echarts/v2/charts"
@@ -195,6 +196,18 @@ func MakeChart(){
 			//fmt.Printf("%s",fileData.Date)
             fmt.Println(f.Name(),"\n")
     }	
+
+	sort.Slice(days, func(i, j int) bool {
+	 	a, err := time.Parse("Jan-2-2006",days[i].Date)
+	 	if err != nil {
+	 	     log.Fatal(err)
+	 	    		}
+	 	b, err := time.Parse("Jan-2-2006",days[j].Date)
+	 	if err != nil {
+	 	     log.Fatal(err)
+	 	 }
+	  return a.Before(b)
+	})
 
     for i,s := range days[len(days)-1].Schools{
 
