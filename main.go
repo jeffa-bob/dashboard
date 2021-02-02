@@ -216,15 +216,18 @@ func MakeChart(){
     			charts.WithInitializationOpts(opts.Initialization{Theme: types.ThemeWesteros}),
     			charts.WithTitleOpts(opts.Title{
     				Title:    i,
-    				Subtitle: "Total In-Person Population: " + strconv.Itoa(s.Population),
-
-    			}))
+    				Subtitle: "Total In-Person Population: " + strconv.Itoa(s.Population) + "   Staff Cases: "  + strconv.Itoa(s.ActiveStaff) + "  Student Cases: "   + strconv.Itoa(s.ActiveStudents) + "  Proportional: "  + strconv.FormatFloat(s.Proportional, 'E', -1, 64),
+    				}))
 
     	line.SetXAxis(daystrings).
     			AddSeries("Total Active Cases", total).
     			AddSeries("Total Active Staff", staff).
     			AddSeries("Total Active Students", student).
-    			SetSeriesOptions(charts.WithLineChartOpts(opts.LineChart{Smooth: true}))
+    			SetSeriesOptions(
+    				charts.WithLineChartOpts(opts.LineChart{Smooth: true}),
+    				charts.WithLabelOpts(opts.Label{Show: true}),
+    				)
+    					
     	f, _ := os.Create("./charts/"+i+".html")
     	line.Render(f)
     }
