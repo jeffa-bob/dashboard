@@ -236,12 +236,14 @@ func MakeChart(){
     				}))
 
     	line.SetXAxis(daystrings).
-    			AddSeries("Total Active Cases", total).
-    			AddSeries("Total Active Staff", staff).
-    			AddSeries("Total Active Students", student).
+    			AddSeries("Total Active Cases", total, charts.WithLabelOpts(opts.Label{Show: true})).
+    			AddSeries("Total Active Staff", staff, charts.WithLabelOpts(opts.Label{Show: true})).
+    			AddSeries("Total Active Students", student, charts.WithLabelOpts(opts.Label{Show: true})).
     			SetSeriesOptions(
-    				charts.WithLineChartOpts(opts.LineChart{Smooth: true}),
+    				charts.WithLineChartOpts(opts.LineChart{Step: true}),
     				charts.WithLabelOpts(opts.Label{Show: true}),
+    				charts.WithMarkPointStyleOpts(
+						opts.MarkPointStyle{Label: &opts.Label{Show: true}}),
     				)
     					
     	f, _ := os.Create("./charts/"+i+".html")
