@@ -190,7 +190,6 @@ func MakeChart(){
 			}
 
 			days = append(days, fileData)
-			daystrings = append(daystrings, fileData.Date)
 
 			
 			//fmt.Printf("%s",fileData.Date)
@@ -208,6 +207,10 @@ func MakeChart(){
 	 	 }
 	  return a.Before(b)
 	})
+
+	for _,s := range days{
+		daystrings = append(daystrings, s.Date)
+	}
 
     for i,s := range days[len(days)-1].Schools{
 
@@ -229,7 +232,7 @@ func MakeChart(){
     			charts.WithInitializationOpts(opts.Initialization{Theme: types.ThemeWesteros}),
     			charts.WithTitleOpts(opts.Title{
     				Title:    i,
-    				Subtitle: "Total In-Person Population: " + strconv.Itoa(s.Population) + "   Staff Cases: "  + strconv.Itoa(s.ActiveStaff) + "  Student Cases: "   + strconv.Itoa(s.ActiveStudents) + "  Proportional: "  + strconv.FormatFloat(s.Proportional, 'E', -1, 64),
+    				Subtitle: "Total In-Person Population: " + strconv.Itoa(s.Population) + "   Staff Cases: "  + strconv.Itoa(s.ActiveStaff) + "  Student Cases: "   + strconv.Itoa(s.ActiveStudents),
     				}))
 
     	line.SetXAxis(daystrings).
