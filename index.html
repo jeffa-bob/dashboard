@@ -1,0 +1,79 @@
+<html>
+<body>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Dashboard</title>
+</head>
+
+<body>
+    <label for="schools">Choose a School:</label>
+
+    <select name="schools" onchange="onSchoolSelect" id="schools">
+    </select>
+    <iframe  id="chartFrame" style="width: 95%; height: 95%;"></iframe>
+    <script>
+       schools =  [
+            "Alderwood Elementary",
+            "Beacon Park Elementary",
+            "Bonita Canyon Elementary",
+            "Brywood Elementary",
+            "Cadence Park K-8",
+            "Canyon View Elementary",
+            "College Park Elementary",
+            "Creekside High School	",
+            "Culverdale Elementary",
+            "Cypress Village Elementary",
+            "Deerfield Elementary",
+            "Early Childhood Learning Center",
+            "Eastshore Elementary",
+            "Eastwood Elementary",
+            "Greentree Elementary",
+            "Irvine Adult Transition Program",
+            "Irvine High School",
+            "Jeffrey Trail Middle School",
+            "Lakeside Middle School",
+            "Loma Ridge Elementary",
+            "Meadow Park Elementary",
+            "Northwood Elementary",
+            "Northwood High School",
+            "Oak Creek Elementary",
+            "Plaza Vista School",
+            "Portola High School",
+            "Portola Springs Elementary",
+            "Rancho San Joaquin Middle School",
+            "Santiago Hills Elementary",
+            "Sierra Vista Middle School",
+            "South Lake Middle School",
+            "Springbrook Elementary",
+            "Stone Creek Elementary",
+            "Stonegate Elementary",
+            "Turtle Rock Elementary",
+            "University High School",
+            "University Park Elementary",
+            "Venado Middle School",
+            "Vista Verde K-8",
+            "Westpark Elementary",
+            "Woodbridge High School",
+            "Woodbury Elementary",
+            "Other District Facilities"]
+
+            schools.forEach(element => {
+                var schoolOption = new Option(element,element)
+                document.getElementById("schools").appendChild(schoolOption)
+            });
+
+            function onSchoolSelect(){
+                var school = document.getElementById("schools").value;
+                document.getElementById("chartFrame").src = "./charts/" + school;
+            }
+    </script>
+</body>
+
+</html>
