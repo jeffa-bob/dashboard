@@ -39,4 +39,5 @@ jobs:
           git config --global user.name 'Jeffa-Bob'
           git config --global user.email 'Jeffa-Bob@users.noreply.github.com'
           git commit -am "Update files"
+          git pull
           git push
