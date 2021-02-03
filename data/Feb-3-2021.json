@@ -12,10 +12,10 @@
   "Beacon Park Elementary": {
    "Name": "Beacon Park Elementary",
    "Population": 566,
-   "ActiveTotal": 2,
-   "ActiveStaff": 1,
+   "ActiveTotal": 1,
+   "ActiveStaff": 0,
    "ActiveStudents": 1,
-   "Proportional": 0.00353,
+   "Proportional": 0.00177,
    "Notes": ""
   },
   "Bonita Canyon Elementary": {
@@ -66,19 +66,19 @@
   "Creekside High School": {
    "Name": "Creekside High School",
    "Population": 259,
-   "ActiveTotal": 1,
-   "ActiveStaff": 1,
+   "ActiveTotal": 0,
+   "ActiveStaff": 0,
    "ActiveStudents": 0,
-   "Proportional": 0.00386,
+   "Proportional": 0,
    "Notes": ""
   },
   "Culverdale Elementary": {
    "Name": "Culverdale Elementary",
    "Population": 491,
-   "ActiveTotal": 3,
-   "ActiveStaff": 2,
+   "ActiveTotal": 2,
+   "ActiveStaff": 1,
    "ActiveStudents": 1,
-   "Proportional": 0.00611,
+   "Proportional": 0.00407,
    "Notes": ""
   },
   "Cypress Village Elementary": {
@@ -165,10 +165,10 @@
   "Lakeside Middle School": {
    "Name": "Lakeside Middle School",
    "Population": 501,
-   "ActiveTotal": 6,
-   "ActiveStaff": 4,
+   "ActiveTotal": 5,
+   "ActiveStaff": 3,
    "ActiveStudents": 2,
-   "Proportional": 0.01198,
+   "Proportional": 0.00998,
    "Notes": ""
   },
   "Loma Ridge Elementary": {
@@ -255,10 +255,10 @@
   "Rancho San Joaquin Middle School": {
    "Name": "Rancho San Joaquin Middle School",
    "Population": 506,
-   "ActiveTotal": 1,
-   "ActiveStaff": 1,
+   "ActiveTotal": 0,
+   "ActiveStaff": 0,
    "ActiveStudents": 0,
-   "Proportional": 0.00198,
+   "Proportional": 0,
    "Notes": ""
   },
   "Santiago Hills Elementary": {
@@ -273,10 +273,10 @@
   "Sierra Vista Middle School": {
    "Name": "Sierra Vista Middle School",
    "Population": 757,
-   "ActiveTotal": 3,
-   "ActiveStaff": 3,
+   "ActiveTotal": 2,
+   "ActiveStaff": 2,
    "ActiveStudents": 0,
-   "Proportional": 0.00396,
+   "Proportional": 0.00264,
    "Notes": ""
   },
   "South Lake Middle School": {
@@ -291,10 +291,10 @@
   "Springbrook Elementary": {
    "Name": "Springbrook Elementary",
    "Population": 418,
-   "ActiveTotal": 2,
-   "ActiveStaff": 2,
+   "ActiveTotal": 1,
+   "ActiveStaff": 1,
    "ActiveStudents": 0,
-   "Proportional": 0.00478,
+   "Proportional": 0.00239,
    "Notes": ""
   },
   "Stone Creek Elementary": {
