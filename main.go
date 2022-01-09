@@ -193,7 +193,7 @@ func MakeChart(){
 
 			
 			//fmt.Printf("%s",fileData.Date)
-            fmt.Println(f.Name(),"\n")
+            fmt.Println(f.Name())
     }	
 
 	sort.Slice(days, func(i, j int) bool {
