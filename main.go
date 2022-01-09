@@ -232,15 +232,15 @@ func MakeChart(){
     			charts.WithInitializationOpts(opts.Initialization{Theme: types.ThemeWesteros}),
     			charts.WithTitleOpts(opts.Title{
     				Title:    i,
-    				Subtitle: "Total In-Person Population: " + strconv.Itoa(s.Population) + "   Staff Cases: "  + strconv.Itoa(s.ActiveStaff) + "  Student Cases: "   + strconv.Itoa(s.ActiveStudents),
+    				Subtitle: "Total In-Person Population: " + strconv.Itoa(s.Population) + "   Staff Cases: "  + strconv.Itoa(s.ActiveStudents) + "  Student Cases: "   + strconv.Itoa(s.ActiveStaff),
     				}),
 					charts.WithLegendOpts(opts.Legend{Show: true}),
     				)
 
     	line.SetXAxis(daystrings).
     			AddSeries("Total Active Cases", total, charts.WithLabelOpts(opts.Label{Show: true})).
-    			AddSeries("Total Active Staff", staff, charts.WithLabelOpts(opts.Label{Show: true})).
-    			AddSeries("Total Active Students", student, charts.WithLabelOpts(opts.Label{Show: true})).
+    			AddSeries("Total Active Staff", student, charts.WithLabelOpts(opts.Label{Show: true})).
+    			AddSeries("Total Active Students", staff, charts.WithLabelOpts(opts.Label{Show: true})).
     			SetSeriesOptions(
     			//	charts.WithLineChartOpts(opts.LineChart{Smooth: true}),
     				charts.WithLabelOpts(opts.Label{Show: true}),
