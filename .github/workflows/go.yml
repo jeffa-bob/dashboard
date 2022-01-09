@@ -23,6 +23,7 @@ jobs:
       run: |
           git config --global user.name 'Jeffa-Bob'
           git config --global user.email 'Jeffa-Bob@users.noreply.github.com'
+          git add ./main
           git commit -am "Update files"
           git config pull.rebase false
           git pull
