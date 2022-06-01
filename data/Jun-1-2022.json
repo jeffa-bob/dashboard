@@ -1,0 +1,392 @@
+{
+ "Schools": {
+  "Alderwood Elementary": {
+   "Name": "Alderwood Elementary",
+   "Population": 774,
+   "ActiveTotal": 7,
+   "ActiveStaff": 6,
+   "ActiveStudents": 1,
+   "Proportional": 0.00904,
+   "Notes": ""
+  },
+  "Beacon Park Elementary": {
+   "Name": "Beacon Park Elementary",
+   "Population": 980,
+   "ActiveTotal": 16,
+   "ActiveStaff": 15,
+   "ActiveStudents": 1,
+   "Proportional": 0.01633,
+   "Notes": ""
+  },
+  "Bonita Canyon Elementary": {
+   "Name": "Bonita Canyon Elementary",
+   "Population": 412,
+   "ActiveTotal": 10,
+   "ActiveStaff": 9,
+   "ActiveStudents": 1,
+   "Proportional": 0.02427,
+   "Notes": ""
+  },
+  "Brywood Elementary": {
+   "Name": "Brywood Elementary",
+   "Population": 532,
+   "ActiveTotal": 5,
+   "ActiveStaff": 5,
+   "ActiveStudents": 0,
+   "Proportional": 0.0094,
+   "Notes": ""
+  },
+  "Cadence Park K - 8": {
+   "Name": "Cadence Park K - 8",
+   "Population": 1065,
+   "ActiveTotal": 16,
+   "ActiveStaff": 12,
+   "ActiveStudents": 4,
+   "Proportional": 0.01502,
+   "Notes": ""
+  },
+  "Canyon View Elementary": {
+   "Name": "Canyon View Elementary",
+   "Population": 657,
+   "ActiveTotal": 33,
+   "ActiveStaff": 30,
+   "ActiveStudents": 3,
+   "Proportional": 0.05023,
+   "Notes": ""
+  },
+  "College Park Elementary": {
+   "Name": "College Park Elementary",
+   "Population": 618,
+   "ActiveTotal": 15,
+   "ActiveStaff": 12,
+   "ActiveStudents": 3,
+   "Proportional": 0.02427,
+   "Notes": ""
+  },
+  "Creekside Education Center♦": {
+   "Name": "Creekside Education Center♦",
+   "Population": 1185,
+   "ActiveTotal": 2,
+   "ActiveStaff": 1,
+   "ActiveStudents": 1,
+   "Proportional": 0.00169,
+   "Notes": ""
+  },
+  "Culverdale Elementary": {
+   "Name": "Culverdale Elementary",
+   "Population": 644,
+   "ActiveTotal": 15,
+   "ActiveStaff": 15,
+   "ActiveStudents": 0,
+   "Proportional": 0.02329,
+   "Notes": ""
+  },
+  "Cypress Village Elementary": {
+   "Name": "Cypress Village Elementary",
+   "Population": 1060,
+   "ActiveTotal": 9,
+   "ActiveStaff": 9,
+   "ActiveStudents": 0,
+   "Proportional": 0.00849,
+   "Notes": ""
+  },
+  "Deerfield Elementary": {
+   "Name": "Deerfield Elementary",
+   "Population": 650,
+   "ActiveTotal": 18,
+   "ActiveStaff": 16,
+   "ActiveStudents": 2,
+   "Proportional": 0.02769,
+   "Notes": ""
+  },
+  "Early Childhood Learning Center": {
+   "Name": "Early Childhood Learning Center",
+   "Population": 532,
+   "ActiveTotal": 10,
+   "ActiveStaff": 5,
+   "ActiveStudents": 5,
+   "Proportional": 0.0188,
+   "Notes": ""
+  },
+  "Eastshore Elementary": {
+   "Name": "Eastshore Elementary",
+   "Population": 549,
+   "ActiveTotal": 14,
+   "ActiveStaff": 14,
+   "ActiveStudents": 0,
+   "Proportional": 0.0255,
+   "Notes": ""
+  },
+  "Eastwood Elementary": {
+   "Name": "Eastwood Elementary",
+   "Population": 614,
+   "ActiveTotal": 18,
+   "ActiveStaff": 18,
+   "ActiveStudents": 0,
+   "Proportional": 0.02932,
+   "Notes": ""
+  },
+  "Greentree Elementary": {
+   "Name": "Greentree Elementary",
+   "Population": 466,
+   "ActiveTotal": 12,
+   "ActiveStaff": 10,
+   "ActiveStudents": 2,
+   "Proportional": 0.02575,
+   "Notes": ""
+  },
+  "IUSD Virtual Academy Elementary": {
+   "Name": "IUSD Virtual Academy Elementary",
+   "Population": 1152,
+   "ActiveTotal": 1,
+   "ActiveStaff": 0,
+   "ActiveStudents": 1,
+   "Proportional": 0.00087,
+   "Notes": ""
+  },
+  "Irvine Adult Transition Program": {
+   "Name": "Irvine Adult Transition Program",
+   "Population": 87,
+   "ActiveTotal": 0,
+   "ActiveStaff": 0,
+   "ActiveStudents": 0,
+   "Proportional": 0,
+   "Notes": ""
+  },
+  "Irvine High School": {
+   "Name": "Irvine High School",
+   "Population": 1875,
+   "ActiveTotal": 44,
+   "ActiveStaff": 40,
+   "ActiveStudents": 4,
+   "Proportional": 0.02347,
+   "Notes": ""
+  },
+  "Jeffrey Trail Middle School": {
+   "Name": "Jeffrey Trail Middle School",
+   "Population": 1020,
+   "ActiveTotal": 12,
+   "ActiveStaff": 9,
+   "ActiveStudents": 3,
+   "Proportional": 0.01176,
+   "Notes": ""
+  },
+  "Lakeside Middle School": {
+   "Name": "Lakeside Middle School",
+   "Population": 621,
+   "ActiveTotal": 3,
+   "ActiveStaff": 2,
+   "ActiveStudents": 1,
+   "Proportional": 0.00483,
+   "Notes": ""
+  },
+  "Loma Ridge Elementary": {
+   "Name": "Loma Ridge Elementary",
+   "Population": 579,
+   "ActiveTotal": 6,
+   "ActiveStaff": 5,
+   "ActiveStudents": 1,
+   "Proportional": 0.01036,
+   "Notes": ""
+  },
+  "Meadow Park Elementary": {
+   "Name": "Meadow Park Elementary",
+   "Population": 586,
+   "ActiveTotal": 10,
+   "ActiveStaff": 6,
+   "ActiveStudents": 4,
+   "Proportional": 0.01706,
+   "Notes": ""
+  },
+  "Northwood Elementary": {
+   "Name": "Northwood Elementary",
+   "Population": 499,
+   "ActiveTotal": 7,
+   "ActiveStaff": 6,
+   "ActiveStudents": 1,
+   "Proportional": 0.01403,
+   "Notes": ""
+  },
+  "Northwood High School": {
+   "Name": "Northwood High School",
+   "Population": 2301,
+   "ActiveTotal": 41,
+   "ActiveStaff": 32,
+   "ActiveStudents": 9,
+   "Proportional": 0.01782,
+   "Notes": ""
+  },
+  "Oak Creek Elementary": {
+   "Name": "Oak Creek Elementary",
+   "Population": 898,
+   "ActiveTotal": 11,
+   "ActiveStaff": 8,
+   "ActiveStudents": 3,
+   "Proportional": 0.01225,
+   "Notes": ""
+  },
+  "Plaza Vista School": {
+   "Name": "Plaza Vista School",
+   "Population": 833,
+   "ActiveTotal": 20,
+   "ActiveStaff": 19,
+   "ActiveStudents": 1,
+   "Proportional": 0.02401,
+   "Notes": ""
+  },
+  "Portola High School": {
+   "Name": "Portola High School",
+   "Population": 2168,
+   "ActiveTotal": 22,
+   "ActiveStaff": 14,
+   "ActiveStudents": 8,
+   "Proportional": 0.01015,
+   "Notes": ""
+  },
+  "Portola Springs Elementary": {
+   "Name": "Portola Springs Elementary",
+   "Population": 878,
+   "ActiveTotal": 6,
+   "ActiveStaff": 6,
+   "ActiveStudents": 0,
+   "Proportional": 0.00683,
+   "Notes": ""
+  },
+  "Rancho San Joaquin Middle School": {
+   "Name": "Rancho San Joaquin Middle School",
+   "Population": 781,
+   "ActiveTotal": 16,
+   "ActiveStaff": 12,
+   "ActiveStudents": 4,
+   "Proportional": 0.02049,
+   "Notes": ""
+  },
+  "Santiago Hills Elementary": {
+   "Name": "Santiago Hills Elementary",
+   "Population": 557,
+   "ActiveTotal": 12,
+   "ActiveStaff": 12,
+   "ActiveStudents": 0,
+   "Proportional": 0.02154,
+   "Notes": ""
+  },
+  "Sierra Vista Middle School": {
+   "Name": "Sierra Vista Middle School",
+   "Population": 1141,
+   "ActiveTotal": 30,
+   "ActiveStaff": 29,
+   "ActiveStudents": 1,
+   "Proportional": 0.02629,
+   "Notes": ""
+  },
+  "South Lake Middle School": {
+   "Name": "South Lake Middle School",
+   "Population": 653,
+   "ActiveTotal": 11,
+   "ActiveStaff": 10,
+   "ActiveStudents": 1,
+   "Proportional": 0.01685,
+   "Notes": ""
+  },
+  "Springbrook Elementary": {
+   "Name": "Springbrook Elementary",
+   "Population": 513,
+   "ActiveTotal": 11,
+   "ActiveStaff": 7,
+   "ActiveStudents": 4,
+   "Proportional": 0.02144,
+   "Notes": ""
+  },
+  "Stone Creek Elementary": {
+   "Name": "Stone Creek Elementary",
+   "Population": 506,
+   "ActiveTotal": 4,
+   "ActiveStaff": 4,
+   "ActiveStudents": 0,
+   "Proportional": 0.00791,
+   "Notes": ""
+  },
+  "Stonegate Elementary": {
+   "Name": "Stonegate Elementary",
+   "Population": 930,
+   "ActiveTotal": 10,
+   "ActiveStaff": 10,
+   "ActiveStudents": 0,
+   "Proportional": 0.01075,
+   "Notes": ""
+  },
+  "Turtle Rock Elementary": {
+   "Name": "Turtle Rock Elementary",
+   "Population": 857,
+   "ActiveTotal": 8,
+   "ActiveStaff": 7,
+   "ActiveStudents": 1,
+   "Proportional": 0.00933,
+   "Notes": ""
+  },
+  "University High School": {
+   "Name": "University High School",
+   "Population": 2176,
+   "ActiveTotal": 38,
+   "ActiveStaff": 32,
+   "ActiveStudents": 6,
+   "Proportional": 0.01746,
+   "Notes": ""
+  },
+  "University Park Elementary": {
+   "Name": "University Park Elementary",
+   "Population": 533,
+   "ActiveTotal": 8,
+   "ActiveStaff": 7,
+   "ActiveStudents": 1,
+   "Proportional": 0.01501,
+   "Notes": ""
+  },
+  "Venado Middle School": {
+   "Name": "Venado Middle School",
+   "Population": 583,
+   "ActiveTotal": 12,
+   "ActiveStaff": 10,
+   "ActiveStudents": 2,
+   "Proportional": 0.02058,
+   "Notes": ""
+  },
+  "Vista Verde K-8": {
+   "Name": "Vista Verde K-8",
+   "Population": 801,
+   "ActiveTotal": 9,
+   "ActiveStaff": 8,
+   "ActiveStudents": 1,
+   "Proportional": 0.01124,
+   "Notes": ""
+  },
+  "Westpark Elementary": {
+   "Name": "Westpark Elementary",
+   "Population": 840,
+   "ActiveTotal": 9,
+   "ActiveStaff": 9,
+   "ActiveStudents": 0,
+   "Proportional": 0.01071,
+   "Notes": ""
+  },
+  "Woodbridge High School": {
+   "Name": "Woodbridge High School",
+   "Population": 2315,
+   "ActiveTotal": 43,
+   "ActiveStaff": 34,
+   "ActiveStudents": 9,
+   "Proportional": 0.01857,
+   "Notes": ""
+  },
+  "Woodbury Elementary": {
+   "Name": "Woodbury Elementary",
+   "Population": 1162,
+   "ActiveTotal": 14,
+   "ActiveStaff": 12,
+   "ActiveStudents": 2,
+   "Proportional": 0.01205,
+   "Notes": ""
+  }
+ },
+ "Date": "Jun-1-2022"
+}
