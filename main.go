@@ -40,7 +40,7 @@ func main(){
 	currentData = Data{Date:time.Now().Format("Jan-2-2006")}
 	currentData.Schools = make(map[string]School)
 	
-	response, err := http.Get("https://docs.google.com/spreadsheets/d/1-dt0LlQaP-yA-koWz3tJzR0urkPvlzbEjmqVwWXA5W8/htmlembed/sheet?gid=0")
+	response, err := http.Get("https://docs.google.com/spreadsheets/u/2/d/1VaaE_miJ1hQDbCNqjxUa0qFJZ6pw0hA9WkM2ikby8eQ/htmlembed/sheet?gid=0")
     if err != nil {
         log.Fatal(err)
     }
