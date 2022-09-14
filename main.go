@@ -233,7 +233,11 @@ func MakeChart() {
 		line := charts.NewLine()
 
 		line.SetGlobalOptions(
-			charts.WithDataZoomOpts(opts.DataZoom{}),
+			charts.WithDataZoomOpts(opts.DataZoom{
+				Start:      80,
+				End:        100,
+				XAxisIndex: []int{0},
+			}),
 			charts.WithInitializationOpts(opts.Initialization{Theme: types.ThemeWesteros}),
 			charts.WithTitleOpts(opts.Title{
 				Title:    i,
